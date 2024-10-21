@@ -18,7 +18,11 @@
 
 ## 数据下载
 
-[数据下载网址](http://slkc06hf4.hn-bkt.clouddn.com/%E5%BF%83%E8%B7%B3%E4%BF%A1%E5%8F%B7%E5%88%86%E6%9E%90%E9%A2%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E9%9B%86.zip)
+[数据下载连接](http://slkc06hf4.hn-bkt.clouddn.com/%E5%BF%83%E8%B7%B3%E4%BF%A1%E5%8F%B7%E5%88%86%E6%9E%90%E9%A2%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E9%9B%86.zip)
+
+如果被阻止了，可以试试在比赛平台下载
+
+[比赛网站](https://tianchi.aliyun.com/competition/entrance/531883/information)
 
 ## 评测标准
 
@@ -28,7 +32,9 @@
 
 针对某一个信号，若真实值为[*y1,y2,y3,y4*],模型预测概率值为[*a1,a2,a3,a4*],那么该模型的平均指标*abs-sum*为：
 
-![image](<"http://slkc06hf4.hn-bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20185254.png">)
+<p align="center">
+  <img src="http://slkc06hf4.hn-bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-21%20185254.png" />
+</p>
 
 例如，心跳信号为1，会通过编码转成[0,1,0,0]，预测不同心跳信号概率为[0.1,0.7,0.1,0.1],那么这个预测结果的*abs-sum*为:
 
