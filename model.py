@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 
+#构建模型
 class Net1(nn.Module):
     def __init__(self, input_length):
         super(Net1, self).__init__()
