@@ -55,7 +55,7 @@
 
 # 运行方法
 
-在根目录增加一个名为datas的文件夹，将testA.csv和train.csv放入
+在根目录增加一个名为datas的文件夹，并将testA.csv和train.csv放入
 
 安装requirements.txt文件所包含的包
 
